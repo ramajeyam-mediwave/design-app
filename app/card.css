@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
 body {
   margin: 100px;
-  display: grid;
+  color: white;
   font-family: "Lora", serif;
-  grid-template-columns: 1fr 1fr 1fr;
+
+  background-image: url("https://img.freepik.com/vetores-premium/padrao-perfeito-de-fast-food-no-estilo-doodle_650511-939.jpg?w=2000");
+  background-size: cover;
 }
 .recipe-card {
   width: 300px;
@@ -34,25 +36,51 @@ body {
 }
 
 #recipe-card-1 {
-  background-color: #ffcccc;
+  background-color: black;
 }
 
 #recipe-card-2 {
-  background-color: #ccffcc;
+  background-color: black;
 }
 
 #recipe-card-3 {
-  background-color: #ccccff;
+  background-color: black;
 }
 
 #recipe-card-4 {
-  background-color: #ffffcc;
+  background-color: black;
 }
 
 #recipe-card-5 {
-  background-color: #ffccff;
+  background-color: black;
 }
 
 #recipe-card-6 {
-  background-color: #ccffff;
+  background-color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lora", serif;
+}
+.header {
+  margin-left: 20px;
 }

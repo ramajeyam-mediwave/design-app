@@ -1,115 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
-
 body {
-  /* font-family: Arial, sans-serif; */
-
   font-family: "Lora", serif;
-  height: 100%;
-  background-color: #f5f5f5;
-  font-weight: bolder;
-  font-size: larger;
+  color: #fff;
   padding: 20px;
+  background-image: url("https://img.freepik.com/vetores-premium/padrao-perfeito-de-fast-food-no-estilo-doodle_650511-939.jpg?w=2000");
+  background-size: cover;
 }
-.conatiner {
-  display: flex;
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  height: 100vh;
-}
-.total {
-  text-align: center;
-  width: fit-content;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 8px 10px 10px rgba(0, 0, 0, 0.2);
-}
-.bg {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 
-  background-image: radial-gradient(
-      circle at 30% 86%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 8%,
-      transparent 8%,
-      transparent 92%
-    ),
-    radial-gradient(
-      circle at 55% 100%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 8%,
-      transparent 8%,
-      transparent 92%
-    ),
-    radial-gradient(
-      circle at 40% 75%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 6%,
-      transparent 6%,
-      transparent 94%
-    ),
-    radial-gradient(
-      circle at 7% 99%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 6%,
-      transparent 6%,
-      transparent 94%
-    ),
-    radial-gradient(
-      circle at 69% 76%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 6%,
-      transparent 6%,
-      transparent 94%
-    ),
-    radial-gradient(
-      circle at 2% 35%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 6%,
-      transparent 6%,
-      transparent 94%
-    ),
-    radial-gradient(
-      circle at 14% 48%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 6%,
-      transparent 6%,
-      transparent 94%
-    ),
-    radial-gradient(
-      circle at 28% 87%,
-      rgba(255, 255, 255, 0.04) 0%,
-      rgba(255, 255, 255, 0.04) 4%,
-      transparent 4%,
-      transparent 96%
-    ),
-    radial-gradient(
-      circle at 65% 14%,
-      rgba(255, 255, 255, 0.04) 0%,
-      rgba(255, 255, 255, 0.04) 4%,
-      transparent 4%,
-      transparent 96%
-    ),
-    radial-gradient(
-      circle at 51% 36%,
-      rgba(255, 255, 255, 0.04) 0%,
-      rgba(255, 255, 255, 0.04) 4%,
-      transparent 4%,
-      transparent 96%
-    ),
-    radial-gradient(
-      circle at 6% 93%,
-      rgba(255, 255, 255, 0.04) 0%,
-      rgba(255, 255, 255, 0.04) 4%,
-      transparent 4%,
-      transparent 96%
-    ),
-    linear-gradient(135deg, rgb(23, 233, 173), rgb(29, 24, 208));
+.total {
+  margin: 150px auto;
+  text-align: center;
+  width: 500px;
+  /* background-color: #FFFFFF; */
+  /* padding: 20px; */
+  border-radius: 8px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px #fff;
+  background-color: rgb(29, 28, 34);
+  /* background: linear-gradient(to bottom, rgb(29, 28, 34), gray); */
 }
 input {
   caret-color: red;
@@ -121,40 +29,66 @@ h2 {
   margin-bottom: 10px;
 }
 .title-card {
-  width: 500px;
-  height: 50px;
+  width: 200px;
+  height: 10px;
   text-align: center;
   background: #ecf0f3;
   padding: 5px;
   padding-left: 20px;
   /* font-size: 14px; */
-  font-size: 20px;
+  /* font-size: 20px; */
   border-radius: 50px;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
-
 textarea {
   caret-color: red;
   text-align: center;
   padding: 5px;
-  width: 500px;
-  height: 50px;
+  width: 200px;
+  height: 10px;
   font-size: 20px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 50px;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
-
 button[type="submit"] {
-  background-color: #00d0ff;
-  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  /* background-color: blue; */
+  color: black;
   padding: 10px 20px;
   border: none;
+  /* width: 100px; */
   border-radius: 5px;
   cursor: pointer;
 }
+/* button[type="submit"]:hover {
+  background-color: ;
+  color: ;
+} */
 
-button[type="submit"]:hover {
-  background-color: #19cee6;
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lora", serif;
+}
+#button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lora", serif;
 }
